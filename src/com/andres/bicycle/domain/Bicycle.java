@@ -5,7 +5,7 @@ public class Bicycle {
     public String color;
     public double speed;
     public byte currentChange = 1;
-    public byte maxChange = 7;
+    public byte maxChange = 8;
 
     // +accelerating(in amount:int)
     public void accelerating(int amount) {
